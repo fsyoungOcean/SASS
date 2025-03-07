@@ -5,7 +5,7 @@ body {
   font: 100% $font-stack;
   color: $primary-color;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 2rem;
+  font-size: 0.5rem;
   background-color: #333;
   display: flex;
   font-weight: 100;
@@ -21,6 +21,10 @@ aside[role="complementary"] {
   margin-left: auto;
 }
 
+div{
+  font-family: 'Courier New', Courier, monospace;
+}
+
 nav {
   ul {
     margin: 0;
@@ -30,6 +34,9 @@ nav {
 
   li { display: inline-block; }
 
+  div{
+    font: 100;
+  }
   a {
     display: block;
     padding: 6px 12px;

@@ -8,6 +8,12 @@ body {
   margin: 1rem;
   padding: 1px;
   background-color: #333;
+  display: grid;
+}
+
+aside[role="complementary"] {
+  width: math.div(300px, 960px) * 100%;
+  margin-left: auto;
 }
 
 nav {

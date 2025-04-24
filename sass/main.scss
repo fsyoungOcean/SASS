@@ -34,18 +34,18 @@ div{
 nav {
   ul {
     margin: 0;
-    padding: 3rem;
+    padding: 2rem;
     list-style: circle;
   }
 
   li { display: inline-block; }
 
   div{
-    font: 100;
+    font: 500;
   }
   a {
     display: block;
-    padding: 6px 12px;
+    padding: 6px 1rem;
     text-decoration: none;
   }
 }
